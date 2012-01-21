@@ -8,7 +8,6 @@ tests.
 
   * [node](http://nodejs.org/)
   * [npm](http://npmjs.org/)
-  * [redis](http://redis.io/)
 
 ### Usage
 
@@ -27,8 +26,6 @@ Install requirements
 Run daemon
 
     node .
-
-Open [localhost:8000](http://localhost:8000) in your browser.
 
 ### License
 
