@@ -5,7 +5,7 @@ var suite = ntf.utils.load(__dirname + '/tests')
 
 var options = {
   test: {
-    timeout: 10,
+    interval: 10,
   },
 }
 
