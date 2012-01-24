@@ -4,6 +4,7 @@ var ntf = require('ntf')
 var suite = ntf.utils.load(__dirname + '/tests')
 
 var options = {
+  //plugin: [new ntfd.plugin.HttpEmitter('http://localhost:8000')],
   test: {
     interval: 10,
   },
