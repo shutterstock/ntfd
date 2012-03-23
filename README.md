@@ -9,7 +9,7 @@ tests.
   * [node](http://nodejs.org/)
   * [npm](http://npmjs.org/)
 
-### Usage
+### Getting Started
 
 Clone repository
 

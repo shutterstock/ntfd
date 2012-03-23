@@ -1,14 +1,8 @@
 var ntf = require('ntf')
-  , test = ntf.http('https://github.com')
+  , test = ntf.http('http://ntfjs.org')
 
-exports.ntf = test.get('/silas/ntf', function(test) {
+exports.ntf = test.get('/', function(test) {
   test.statusCode(200)
   test.body('ntf')
-  test.done()
-})
-
-exports.ntfd = test.get('/silas/ntfd', function(test) {
-  test.statusCode(200)
-  test.body('ntfd')
   test.done()
 })
