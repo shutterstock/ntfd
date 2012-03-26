@@ -1,4 +1,4 @@
-var utils = require('../lib/ntfd/utils')
+var utils = require('../lib/utils')
 
 var loadPath = __dirname + '/assets/load'
 

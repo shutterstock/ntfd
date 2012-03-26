@@ -12,6 +12,6 @@
     "type": "git",
     "url": "http://github.com/silas/ntfd.git"
   },
-  "bugs" : { "url" : "http://github.com/silas/ntfd/issues" },
-  "main": "lib/ntfd"
+  "bugs": { "url": "http://github.com/silas/ntfd/issues" },
+  "main": "./lib"
 }
