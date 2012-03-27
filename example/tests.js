@@ -5,7 +5,7 @@ ntfd({
   agent: 'test',
   plugin: [
     new ntfd.plugin.ConsoleEmitter(),
-    new ntfd.plugin.HttpEmitter('http://localhost:8000/suite/result'),
+    new ntfd.plugin.HttpEmitter('http://localhost:8000/api/suite/result'),
   ],
   test: {
     interval: 10,
