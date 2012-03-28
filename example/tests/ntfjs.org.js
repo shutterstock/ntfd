@@ -8,6 +8,6 @@ exports.frontpage = test.get('/', function(test) {
 })
 
 exports.fail = test.get('/fail', function(test) {
-  test.statusCode(200)
+  test.statusCode(Math.random() < 0.5 ? 404 : 200)
   test.done()
 })
