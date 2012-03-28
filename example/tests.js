@@ -5,9 +5,9 @@ ntfd({
   agent: 'test',
   plugin: [
     new ntfd.plugin.ConsoleEmitter(),
-    new ntfd.plugin.HttpEmitter('http://localhost:8000/store'),
+    new ntfd.plugin.HttpEmitter('http://localhost:8000/store')
   ],
   test: {
-    interval: 10,
-  },
+    interval: 10
+  }
 })

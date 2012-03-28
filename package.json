@@ -1,12 +1,12 @@
 {
   "name": "ntfd",
   "description": "Network Testing Framework Daemon",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "engines": { "node": ">= 0.4" },
   "dependencies": {
     "async": ">= 0.1.15",
     "nodeunit": ">= 0.5.3",
-    "ntf": ">= 0.2.0"
+    "ntf": ">= 0.6.0"
   },
   "repository": {
     "type": "git",

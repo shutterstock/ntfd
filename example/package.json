@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "ntfd example",
   "dependencies": {
-    "ntf": ">= 0.1.0",
-    "ntfd": ">= 0.1.0"
+    "ntf": ">= 0.6.0",
+    "ntfd": ">= 0.4.0"
   },
   "main": "./tests"
 }
