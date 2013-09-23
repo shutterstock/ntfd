@@ -1,8 +1,9 @@
 ntfd
 ====
 
-ntfd is daemon for continuously running [ntf](https://github.com/silas/ntf)
-tests.
+ntfd is a daemon for continuously running [ntf](https://github.com/shutterstock/ntf)
+tests.  ntfd runs ntf tests at specified intervals in an infinite loop and sends the
+results to [ntfserver](https://github.com/shutterstock/ntfserver)
 
 ### Requirements
 
@@ -13,7 +14,7 @@ tests.
 
 Clone repository
 
-    git clone git://github.com/silas/ntfd.git
+    git clone git://github.com/shutterstock/ntfd.git
 
 Switch to `example` directory
 
