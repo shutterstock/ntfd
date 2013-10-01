@@ -1,9 +1,13 @@
 ntfd
 ====
 
-ntfd is a daemon for continuously running [ntf](https://github.com/shutterstock/ntf)
-tests.  ntfd runs ntf tests at specified intervals in an infinite loop and sends the
-results to [ntfserver](https://github.com/shutterstock/ntfserver)
+ntfd is a library for building daemons to continuously run
+[ntf](https://github.com/shutterstock/ntf) tests.  ntfd runs ntf tests at
+specified intervals in an infinite loop and sends the results to
+[ntfserver](https://github.com/shutterstock/ntfserver).
+
+See [the ntf homepage](http://code.shutterstock.com/ntf/) for more details about
+the ntf framework.
 
 ### Requirements
 
