@@ -3,7 +3,9 @@
   "description": "Network Testing Framework Daemon",
   "version": "0.4.4",
   "author": "NTF Maintainers <ntf-maintainers@shutterstock.com>",
-  "engines": { "node": ">= 0.4" },
+  "engines": {
+    "node": ">= 0.4"
+  },
   "dependencies": {
     "async": ">= 0.1.15",
     "nodeunit": ">= 0.5.3",
@@ -13,6 +15,9 @@
     "type": "git",
     "url": "http://github.com/shutterstock/ntfd.git"
   },
-  "bugs": { "url": "http://github.com/shutterstock/ntfd/issues" },
-  "main": "./lib"
+  "bugs": {
+    "url": "http://github.com/shutterstock/ntfd/issues"
+  },
+  "main": "./lib",
+  "license": "MIT"
 }
