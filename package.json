@@ -13,11 +13,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/shutterstock/ntfd.git"
+    "url": "https://github.com/shutterstock/ntfd.git"
   },
   "bugs": {
-    "url": "http://github.com/shutterstock/ntfd/issues"
+    "url": "https://github.com/shutterstock/ntfd/issues"
   },
   "main": "./lib",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": ["ntf", "daemon"],
+  "homepage": "https://github.com/shutterstock/ntfd",
+  "contributors": [
+    "NTF Maintainers <ntf-maintainers@shutterstock.com>",
+    "Silas Sewell <silas@sewell.org>",
+    "Richard Littauer <richard.littauer@gmail.com>",
+    "Carlos Gomez <carlos@cgenuity.com>",
+    "Curt Zirzow <czirzow@shutterstock.com>",
+    "Dan McCormick <dan@codeop.com>",
+    "czirzow <czirzow@gmail.com>"
+  ]
 }
